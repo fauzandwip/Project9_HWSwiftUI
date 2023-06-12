@@ -94,6 +94,7 @@ struct SpirographView: View {
                     .padding(.horizontal)
             }
 //            .padding()
+            Color.red
         }
     }
 }
