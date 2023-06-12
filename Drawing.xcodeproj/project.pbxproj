@@ -14,6 +14,7 @@
 		7B1019B82A358501001D0640 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1019B72A358501001D0640 /* PathView.swift */; };
 		7B1019BA2A3589A7001D0640 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1019B92A3589A7001D0640 /* ShapeView.swift */; };
 		7B1019BC2A35A9D9001D0640 /* CGAffineTransformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1019BB2A35A9D9001D0640 /* CGAffineTransformView.swift */; };
+		7BE9D7C02A36E8E100543046 /* ImagePaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9D7BF2A36E8E100543046 /* ImagePaintView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		7B1019B72A358501001D0640 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 		7B1019B92A3589A7001D0640 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		7B1019BB2A35A9D9001D0640 /* CGAffineTransformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGAffineTransformView.swift; sourceTree = "<group>"; };
+		7BE9D7BF2A36E8E100543046 /* ImagePaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaintView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				7B1019B72A358501001D0640 /* PathView.swift */,
 				7B1019B92A3589A7001D0640 /* ShapeView.swift */,
 				7B1019BB2A35A9D9001D0640 /* CGAffineTransformView.swift */,
+				7BE9D7BF2A36E8E100543046 /* ImagePaintView.swift */,
 				7B1019AD2A3582D9001D0640 /* Assets.xcassets */,
 				7B1019AF2A3582D9001D0640 /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 				7B1019AC2A3582D8001D0640 /* ContentView.swift in Sources */,
 				7B1019B82A358501001D0640 /* PathView.swift in Sources */,
 				7B1019BA2A3589A7001D0640 /* ShapeView.swift in Sources */,
+				7BE9D7C02A36E8E100543046 /* ImagePaintView.swift in Sources */,
 				7B1019AA2A3582D8001D0640 /* DrawingApp.swift in Sources */,
 				7B1019BC2A35A9D9001D0640 /* CGAffineTransformView.swift in Sources */,
 			);
