@@ -21,6 +21,7 @@
 		7BE9D7C82A3752D400543046 /* AnimatablePairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9D7C72A3752D400543046 /* AnimatablePairView.swift */; };
 		7BE9D7CA2A375D4700543046 /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9D7C92A375D4700543046 /* SpirographView.swift */; };
 		7BE9D7CC2A376F9D00543046 /* ArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9D7CB2A376F9D00543046 /* ArrowView.swift */; };
+		7BE9D7CE2A377A1B00543046 /* ColorCyclingRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9D7CD2A377A1B00543046 /* ColorCyclingRectangleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		7BE9D7C72A3752D400543046 /* AnimatablePairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatablePairView.swift; sourceTree = "<group>"; };
 		7BE9D7C92A375D4700543046 /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
 		7BE9D7CB2A376F9D00543046 /* ArrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowView.swift; sourceTree = "<group>"; };
+		7BE9D7CD2A377A1B00543046 /* ColorCyclingRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingRectangleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				7B1019B72A358501001D0640 /* PathView.swift */,
 				7B1019B92A3589A7001D0640 /* ShapeView.swift */,
 				7BE9D7CB2A376F9D00543046 /* ArrowView.swift */,
+				7BE9D7CD2A377A1B00543046 /* ColorCyclingRectangleView.swift */,
 				7B1019BB2A35A9D9001D0640 /* CGAffineTransformView.swift */,
 				7BE9D7BF2A36E8E100543046 /* ImagePaintView.swift */,
 				7BE9D7C12A37047B00543046 /* drawingGroupView.swift */,
@@ -178,6 +181,7 @@
 				7BE9D7CC2A376F9D00543046 /* ArrowView.swift in Sources */,
 				7B1019AA2A3582D8001D0640 /* DrawingApp.swift in Sources */,
 				7B1019BC2A35A9D9001D0640 /* CGAffineTransformView.swift in Sources */,
+				7BE9D7CE2A377A1B00543046 /* ColorCyclingRectangleView.swift in Sources */,
 				7BE9D7C42A3708C700543046 /* SpecialEffectsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
