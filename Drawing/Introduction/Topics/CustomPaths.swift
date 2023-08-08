@@ -1,5 +1,5 @@
 //
-//  Path.swift
+//  CustomPaths.swift
 //  Drawing
 //
 //  Created by Fauzan Dwi Prasetyo on 11/06/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PathView: View {
+struct CustomPaths: View {
     var body: some View {
         Path { path in
             path.move(to: CGPoint(x: 200, y: 100))
@@ -21,8 +21,8 @@ struct PathView: View {
     }
 }
 
-struct PathView_Previews: PreviewProvider {
+struct CustomPaths_Previews: PreviewProvider {
     static var previews: some View {
-        PathView()
+        CustomPaths()
     }
 }

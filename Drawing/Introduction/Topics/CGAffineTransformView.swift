@@ -50,8 +50,8 @@ struct CGAffineTransformView: View {
     var body: some View {
         VStack {
             Flower(petalOffset: petalOffset, petalWidth: petalWidth)
-//                .fill(.mint, style: FillStyle(eoFill: true))
-                .stroke(.blue)
+                .fill(.mint, style: FillStyle(eoFill: true))
+//                .stroke(.blue)
             
             Text("Offset")
             Slider(value: $petalOffset, in: -40...40)

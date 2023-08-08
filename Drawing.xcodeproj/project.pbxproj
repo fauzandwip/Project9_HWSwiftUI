@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B0A0A1A2A441C0A0019F1E2 /* StrokeBorderSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A0A192A441C0A0019F1E2 /* StrokeBorderSupport.swift */; };
+		7B0A0A1D2A441E2D0019F1E2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A0A1C2A441E2D0019F1E2 /* MainView.swift */; };
 		7B1019AA2A3582D8001D0640 /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1019A92A3582D8001D0640 /* DrawingApp.swift */; };
 		7B1019AC2A3582D8001D0640 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1019AB2A3582D8001D0640 /* ContentView.swift */; };
 		7B1019AE2A3582D9001D0640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B1019AD2A3582D9001D0640 /* Assets.xcassets */; };
 		7B1019B12A3582D9001D0640 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B1019B02A3582D9001D0640 /* Preview Assets.xcassets */; };
-		7B1019B82A358501001D0640 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1019B72A358501001D0640 /* PathView.swift */; };
-		7B1019BA2A3589A7001D0640 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1019B92A3589A7001D0640 /* ShapeView.swift */; };
+		7B1019B82A358501001D0640 /* CustomPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1019B72A358501001D0640 /* CustomPaths.swift */; };
+		7B1019BA2A3589A7001D0640 /* PathsVsShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1019B92A3589A7001D0640 /* PathsVsShapes.swift */; };
 		7B1019BC2A35A9D9001D0640 /* CGAffineTransformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1019BB2A35A9D9001D0640 /* CGAffineTransformView.swift */; };
 		7BE9D7C02A36E8E100543046 /* ImagePaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9D7BF2A36E8E100543046 /* ImagePaintView.swift */; };
 		7BE9D7C22A37047B00543046 /* drawingGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9D7C12A37047B00543046 /* drawingGroupView.swift */; };
@@ -25,13 +27,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B0A0A192A441C0A0019F1E2 /* StrokeBorderSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeBorderSupport.swift; sourceTree = "<group>"; };
+		7B0A0A1C2A441E2D0019F1E2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		7B1019A62A3582D8001D0640 /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1019A92A3582D8001D0640 /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		7B1019AB2A3582D8001D0640 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7B1019AD2A3582D9001D0640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B1019B02A3582D9001D0640 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7B1019B72A358501001D0640 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
-		7B1019B92A3589A7001D0640 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		7B1019B72A358501001D0640 /* CustomPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPaths.swift; sourceTree = "<group>"; };
+		7B1019B92A3589A7001D0640 /* PathsVsShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathsVsShapes.swift; sourceTree = "<group>"; };
 		7B1019BB2A35A9D9001D0640 /* CGAffineTransformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGAffineTransformView.swift; sourceTree = "<group>"; };
 		7BE9D7BF2A36E8E100543046 /* ImagePaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaintView.swift; sourceTree = "<group>"; };
 		7BE9D7C12A37047B00543046 /* drawingGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawingGroupView.swift; sourceTree = "<group>"; };
@@ -54,6 +58,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B0A0A172A441A120019F1E2 /* Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				7B0A0A182A441A210019F1E2 /* Topics */,
+				7B0A0A1C2A441E2D0019F1E2 /* MainView.swift */,
+			);
+			path = Introduction;
+			sourceTree = "<group>";
+		};
+		7B0A0A182A441A210019F1E2 /* Topics */ = {
+			isa = PBXGroup;
+			children = (
+				7B1019B72A358501001D0640 /* CustomPaths.swift */,
+				7B1019B92A3589A7001D0640 /* PathsVsShapes.swift */,
+				7B0A0A192A441C0A0019F1E2 /* StrokeBorderSupport.swift */,
+				7B1019BB2A35A9D9001D0640 /* CGAffineTransformView.swift */,
+				7BE9D7BF2A36E8E100543046 /* ImagePaintView.swift */,
+				7BE9D7C12A37047B00543046 /* drawingGroupView.swift */,
+				7BE9D7C32A3708C700543046 /* SpecialEffectsView.swift */,
+				7BE9D7C52A37128300543046 /* AnimatableDataView.swift */,
+				7BE9D7C72A3752D400543046 /* AnimatablePairView.swift */,
+				7BE9D7C92A375D4700543046 /* SpirographView.swift */,
+			);
+			path = Topics;
+			sourceTree = "<group>";
+		};
+		7B0A0A1B2A441E120019F1E2 /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				7BE9D7CB2A376F9D00543046 /* ArrowView.swift */,
+				7BE9D7CD2A377A1B00543046 /* ColorCyclingRectangleView.swift */,
+			);
+			path = Challenges;
+			sourceTree = "<group>";
+		};
 		7B10199D2A3582D8001D0640 = {
 			isa = PBXGroup;
 			children = (
@@ -75,17 +114,8 @@
 			children = (
 				7B1019A92A3582D8001D0640 /* DrawingApp.swift */,
 				7B1019AB2A3582D8001D0640 /* ContentView.swift */,
-				7B1019B72A358501001D0640 /* PathView.swift */,
-				7B1019B92A3589A7001D0640 /* ShapeView.swift */,
-				7BE9D7CB2A376F9D00543046 /* ArrowView.swift */,
-				7BE9D7CD2A377A1B00543046 /* ColorCyclingRectangleView.swift */,
-				7B1019BB2A35A9D9001D0640 /* CGAffineTransformView.swift */,
-				7BE9D7BF2A36E8E100543046 /* ImagePaintView.swift */,
-				7BE9D7C12A37047B00543046 /* drawingGroupView.swift */,
-				7BE9D7C32A3708C700543046 /* SpecialEffectsView.swift */,
-				7BE9D7C52A37128300543046 /* AnimatableDataView.swift */,
-				7BE9D7C72A3752D400543046 /* AnimatablePairView.swift */,
-				7BE9D7C92A375D4700543046 /* SpirographView.swift */,
+				7B0A0A172A441A120019F1E2 /* Introduction */,
+				7B0A0A1B2A441E120019F1E2 /* Challenges */,
 				7B1019AD2A3582D9001D0640 /* Assets.xcassets */,
 				7B1019AF2A3582D9001D0640 /* Preview Content */,
 			);
@@ -174,14 +204,16 @@
 				7B1019AC2A3582D8001D0640 /* ContentView.swift in Sources */,
 				7BE9D7C62A37128300543046 /* AnimatableDataView.swift in Sources */,
 				7BE9D7C82A3752D400543046 /* AnimatablePairView.swift in Sources */,
-				7B1019B82A358501001D0640 /* PathView.swift in Sources */,
+				7B1019B82A358501001D0640 /* CustomPaths.swift in Sources */,
 				7BE9D7C22A37047B00543046 /* drawingGroupView.swift in Sources */,
-				7B1019BA2A3589A7001D0640 /* ShapeView.swift in Sources */,
+				7B1019BA2A3589A7001D0640 /* PathsVsShapes.swift in Sources */,
 				7BE9D7C02A36E8E100543046 /* ImagePaintView.swift in Sources */,
 				7BE9D7CC2A376F9D00543046 /* ArrowView.swift in Sources */,
 				7B1019AA2A3582D8001D0640 /* DrawingApp.swift in Sources */,
 				7B1019BC2A35A9D9001D0640 /* CGAffineTransformView.swift in Sources */,
+				7B0A0A1A2A441C0A0019F1E2 /* StrokeBorderSupport.swift in Sources */,
 				7BE9D7CE2A377A1B00543046 /* ColorCyclingRectangleView.swift in Sources */,
+				7B0A0A1D2A441E2D0019F1E2 /* MainView.swift in Sources */,
 				7BE9D7C42A3708C700543046 /* SpecialEffectsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

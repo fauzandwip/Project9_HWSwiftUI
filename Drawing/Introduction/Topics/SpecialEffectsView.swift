@@ -7,17 +7,25 @@
 
 import SwiftUI
 
-struct SpecialEffectsView: View {
-    @State private var amount = 0.8
+struct MultiplyBlend: View {
     var body: some View {
-//        ZStack {
-//            Image("PaulHudson")
-//
-//            Rectangle()
-//                .fill(.red)
-//                .blendMode(.multiply)
-//        }
-        
+        ZStack {
+            Image("PaulHudson")
+                .resizable()
+                .scaledToFit()
+            
+            Rectangle()
+                .fill(.red)
+                .blendMode(.multiply)
+        }
+        .frame(width: 400, height: 400)
+    }
+}
+
+struct ScreenEffect: View {
+    @State private var amount = 0.8
+    
+    var body: some View {
         VStack {
             ZStack {
                 Circle()
@@ -45,7 +53,13 @@ struct SpecialEffectsView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.black)
         .ignoresSafeArea()
-        
+    }
+}
+
+struct BlurSaturation: View {
+    @State private var amount = 0.8
+    
+    var body: some View {
         VStack {
             Image("PaulHudson")
                 .resizable()
@@ -60,6 +74,37 @@ struct SpecialEffectsView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.black)
         .ignoresSafeArea()
+    }
+}
+
+struct SpecialEffectsView: View {
+    @State private var selectedView = 0
+    
+    private let views = ["MultiplyBlend", "Screen", "BlurSaturation"]
+    
+    var body: some View {
+        VStack {
+            Picker("Effect", selection: $selectedView) {
+                ForEach(0..<views.count, id: \.self) { i in
+                    Text(views[i])
+                }
+            }
+            .pickerStyle(.segmented)
+            .padding()
+            
+            Spacer()
+            
+            if selectedView == 0 {
+                MultiplyBlend()
+            } else if selectedView == 1 {
+                ScreenEffect()
+            } else {
+                BlurSaturation()
+            }
+            
+            Spacer()
+        }
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

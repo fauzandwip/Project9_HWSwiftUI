@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+
+// MARK: - Challenge 3
+
 struct ColorCyclingRectangle: View {
     var amount = 0.0
     var steps = 100

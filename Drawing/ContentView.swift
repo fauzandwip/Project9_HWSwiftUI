@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    private let topics = [
+        NamedView(name: "Introduction", view: MainView()),
+        NamedView(name: "Challenges 1 - 2", view: ArrowView()),
+        NamedView(name: "Challenge 3", view: ColorCyclingRectangleView()),
+    ]
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                ForEach(0..<topics.count, id: \.self) { i in
+                    NavigationLink(destination: topics[i].view) {
+                        Text(topics[i].name)
+                    }
+                }
+            }
+            .navigationTitle("Drawing")
         }
-        .padding()
     }
 }
 
